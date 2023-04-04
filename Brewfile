@@ -5,7 +5,6 @@ tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
-brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
@@ -15,12 +14,9 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 
-brew 'cmatrix'
-
 # Development
 brew 'php'
 brew 'php@8.0'
-brew 'php@7.4'
 brew 'brew-php-switcher'
 brew 'composer'
 brew 'imagemagick'
@@ -30,6 +26,7 @@ brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'yarn'
+brew 'cmatrix'
 
 # Apps
 cask 'dbngin'
@@ -50,10 +47,6 @@ cask 'postman'
 cask 'qbittorrent'
 cask 'teamviewer'
 cask 'sublime-text'
-
-# Quicklook
-cask 'qlmarkdown'
-cask 'quicklook-json'
 
 # Mac App Store
 mas 'Magnet', id: 441258766
